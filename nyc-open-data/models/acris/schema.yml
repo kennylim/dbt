@@ -1,0 +1,153 @@
+version: 2
+
+models:
+  - name: acris_master
+    description:  Acris Master (legals, master, parties, references, remarks). For each document there is one and only one master record. As such the master record contains attributes for a document that can appear only once for a document like the document type, date and recorded date and time. The first field of the master record is the 16 character ACRIS document id which uniquely identifies a document in ACRIS. This document id is included in each subsequent record type and can be used to link these records back to the master record. This document id can also be used to look up the document in ACRIS Document Search. Source https://data.cityofnewyork.us/api/views/bnx9-e6tj/files/c5d51488-f56b-495e-aef1-b9e7acc4680c?download=true&filename=ACRIS_Public_OpenData_Extract_Guide_v_1.0.doc
+
+    columns:
+      - name: bbl
+        description: borough, block and lot
+        tests:
+          - unique
+          - not_null
+
+      - name: document_id
+        description: CCCNNNNNNNNNNNNN
+        tests:
+          - not_null
+
+      - name: record_type
+        description: ‘A’ for master record
+        tests:
+          - not_null
+
+      - name: party_type
+        description: Party type code
+        tests:
+          - not_null
+
+      - name: borough
+        description: Borough where document was recorded
+        tests:
+          - not_null
+
+      - name: block
+        description: Block where document was recorded
+        tests:
+          - not_null
+
+      - name: lot
+        description: Lot where document was recorded
+        tests:
+          - not_null
+
+      - name: easement
+        description: ‘Y’ or ‘N’ field
+
+      - name: easement
+        description: P=partial E=entire
+
+      - name: partial_lot
+        description: P=partial E=entire
+
+      - name: air_rights
+        description: ‘Y’es or ‘N’o field
+
+      - name: subterranean_rights
+        description: ‘Y’es or ‘N’o field
+
+      - name: property_type
+        description: Code defined in property codes record
+        tests:
+          - not_null
+
+      - name: street_number
+        description: Street / House Number for BBL
+        tests:
+          - not_null
+
+      - name: street_name
+        description: Street Name for BBL
+        tests:
+          - not_null
+
+      - name: addr_unit
+        description: Unit Number for BBL
+
+      - name: recorded_datetime
+        description: Legal Date Instrument was Recorded in Format MM/DD/YYYY 
+        tests:
+          - not_null
+
+      - name: good_through_date
+        description: MM/DD/YYYY – date of latest recording or correction included with this extract
+        tests:
+          - not_null
+
+      - name: crfn
+        description: CRFN of Referenced Document
+        tests:
+          - not_null
+
+      - name: document_amt
+        description: Principal debt or obligation
+        tests:
+          - not_null
+
+      - name: percent_trans
+        description: Reported percentage of interest transferred if the percentage is available; otherwise is null
+        tests:
+          - not_null
+
+      - name: sequence_number
+        description: Number from 1-20
+
+      - name: remark_text
+        description: Portion of Remark for Given Sequence
+
+
+
+  - name: acris_base_master
+    description: Document Details for Property Related Documents Recorded in ACRIS. Source https://data.cityofnewyork.us/api/views/bnx9-e6tj/files/c5d51488-f56b-495e-aef1-b9e7acc4680c?download=true&filename=ACRIS_Public_OpenData_Extract_Guide_v_1.0.doc
+
+    columns:
+      - name: document_id
+        description: CCCNNNNNNNNNNNNN
+        tests:
+          - not_null
+
+  - name: acris_base_legals
+    description: Property Details for Property Related Documents Recorded in ACRIS. Source https://data.cityofnewyork.us/api/views/bnx9-e6tj/files/c5d51488-f56b-495e-aef1-b9e7acc4680c?download=true&filename=ACRIS_Public_OpenData_Extract_Guide_v_1.0.doc
+
+    columns:
+      - name: document_id
+        description: CCCNNNNNNNNNNNNN
+        tests:
+          - not_null
+
+  - name: acris_base_parties
+    description: Party Names for Property Related Documents Recorded in ACRIS. Source https://data.cityofnewyork.us/api/views/bnx9-e6tj/files/c5d51488-f56b-495e-aef1-b9e7acc4680c?download=true&filename=ACRIS_Public_OpenData_Extract_Guide_v_1.0.doc
+
+    columns:
+      - name: document_id
+        description: CCCNNNNNNNNNNNNN
+        tests:
+          - not_null
+
+  - name: acris_base_references
+    description: Document Cross References for Property Related Documents Recorded in ACRIS. Source https://data.cityofnewyork.us/api/views/bnx9-e6tj/files/c5d51488-f56b-495e-aef1-b9e7acc4680c?download=true&filename=ACRIS_Public_OpenData_Extract_Guide_v_1.0.doc
+
+    columns:
+      - name: document_id
+        description: CCCNNNNNNNNNNNNN
+        tests:
+          - not_null
+
+  - name: acris_base_remarks
+    description: Document Remarks for Property Related Documents Recorded in ACRIS. Source https://data.cityofnewyork.us/api/views/bnx9-e6tj/files/c5d51488-f56b-495e-aef1-b9e7acc4680c?download=true&filename=ACRIS_Public_OpenData_Extract_Guide_v_1.0.doc
+
+    columns:
+      - name: document_id
+        description: CCCNNNNNNNNNNNNN
+        tests:
+          - not_null
