@@ -4,7 +4,7 @@
     )
 }}
 
-  WITH acris_master AS (SELECT CONCAT(apl.borough, LPAD(apl.block, 5, '0'), LPAD(apl.lot, 4, '0')) AS bbl,
+WITH acris_master AS (SELECT CONCAT(apl.borough, LPAD(apl.block, 5, '0'), LPAD(apl.lot, 4, '0')) AS bbl,
                                 apl.document_id,
                                 apl.record_type,
                                 app.party_type,
@@ -42,7 +42,6 @@
    AND document_id IS NOT NULL
    AND record_type IS NOT NULL
    AND party_type IS NOT NULL
-
 
 {{
   config({
