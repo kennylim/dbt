@@ -2703,3 +2703,330 @@
 2020-01-14 04:45:24.081 EST [15795] LOG:  checkpoints are occurring too frequently (19 seconds apart)
 2020-01-14 04:45:24.081 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
 2020-01-14 04:45:37.567 EST [42705] WARNING:  there is no transaction in progress
+2020-01-14 07:02:42.886 EST [42705] WARNING:  there is no transaction in progress
+2020-01-14 08:21:29.278 EST [44438] WARNING:  there is already a transaction in progress
+2020-01-14 08:34:13.144 EST [44693] WARNING:  there is already a transaction in progress
+2020-01-14 08:34:13.408 EST [44693] WARNING:  there is already a transaction in progress
+2020-01-14 08:34:13.515 EST [44695] WARNING:  there is already a transaction in progress
+2020-01-14 08:34:29.944 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:34:29.944 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:34:37.329 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:34:37.329 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:34:45.687 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:34:45.687 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:35:23.047 EST [44695] WARNING:  there is no transaction in progress
+2020-01-14 08:35:31.306 EST [15795] LOG:  checkpoints are occurring too frequently (16 seconds apart)
+2020-01-14 08:35:31.306 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:35:40.420 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:35:40.420 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:35:47.572 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:35:47.572 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:35:54.793 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:35:54.793 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:36:02.037 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:36:02.037 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:36:11.078 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:36:11.078 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:36:36.507 EST [15795] LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2020-01-14 08:36:36.507 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:36:38.734 EST [44695] WARNING:  there is no transaction in progress
+2020-01-14 08:36:51.895 EST [15795] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+2020-01-14 08:36:51.895 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:36:59.413 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:36:59.413 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:06.748 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:37:06.748 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:14.847 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:37:14.847 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:22.875 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:37:22.875 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:31.217 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:37:31.217 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:39.242 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:37:39.242 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:47.894 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:37:47.894 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:37:55.266 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:37:55.266 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:38:03.573 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:38:03.573 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:38:10.852 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:38:10.852 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:38:16.448 EST [44695] WARNING:  there is no transaction in progress
+2020-01-14 08:38:32.819 EST [15795] LOG:  checkpoints are occurring too frequently (22 seconds apart)
+2020-01-14 08:38:32.819 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:38:41.636 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:38:41.636 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:38:51.000 EST [15795] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2020-01-14 08:38:51.000 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:39:02.233 EST [15795] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2020-01-14 08:39:02.233 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:39:04.896 EST [44695] WARNING:  there is no transaction in progress
+2020-01-14 08:39:16.656 EST [15795] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2020-01-14 08:39:16.656 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:39:21.082 EST [44695] WARNING:  there is no transaction in progress
+2020-01-14 08:41:13.756 EST [44819] WARNING:  there is already a transaction in progress
+2020-01-14 08:41:14.037 EST [44819] WARNING:  there is already a transaction in progress
+2020-01-14 08:41:14.135 EST [44821] WARNING:  there is already a transaction in progress
+2020-01-14 08:41:29.707 EST [15795] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2020-01-14 08:41:29.707 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:41:37.300 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:41:37.300 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:41:45.413 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:41:45.413 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:41:52.917 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:41:52.917 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:41:54.743 EST [44821] WARNING:  there is no transaction in progress
+2020-01-14 08:42:09.101 EST [15795] LOG:  checkpoints are occurring too frequently (17 seconds apart)
+2020-01-14 08:42:09.101 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:42:18.184 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:42:18.184 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:42:25.377 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:42:25.377 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:42:33.531 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:42:33.531 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:42:40.328 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:42:40.328 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:42:43.593 EST [44821] WARNING:  there is no transaction in progress
+2020-01-14 08:42:54.891 EST [15795] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2020-01-14 08:42:54.891 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:42:57.447 EST [44831] ERROR:  canceling statement due to user request
+2020-01-14 08:42:57.447 EST [44831] STATEMENT:  SELECT t.*, CTID
+	FROM nyc.acris_base_legals t
+	ORDER BY document_id
+	LIMIT 501
+2020-01-14 08:43:02.557 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:43:02.557 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:10.047 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:43:10.047 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:17.568 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:43:17.568 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:25.071 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:43:25.071 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:32.774 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:43:32.774 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:40.821 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:43:40.821 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:48.242 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:43:48.242 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:43:56.532 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:43:56.532 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:44:04.328 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:44:04.328 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:44:11.328 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:44:11.328 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:44:18.789 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:44:18.789 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:45:19.357 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:45:19.357 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:45:25.898 EST [44821] WARNING:  there is no transaction in progress
+2020-01-14 08:45:44.592 EST [15795] LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2020-01-14 08:45:44.592 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:45:52.171 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:45:52.171 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:46:01.826 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:46:01.826 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:46:12.446 EST [15795] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2020-01-14 08:46:12.446 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:46:37.612 EST [15795] LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2020-01-14 08:46:37.612 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:46:40.020 EST [44821] WARNING:  there is no transaction in progress
+2020-01-14 08:46:52.056 EST [15795] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+2020-01-14 08:46:52.056 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:47:04.100 EST [44821] WARNING:  there is no transaction in progress
+2020-01-14 08:53:25.792 EST [45037] WARNING:  there is already a transaction in progress
+2020-01-14 08:53:26.066 EST [45037] WARNING:  there is already a transaction in progress
+2020-01-14 08:53:26.161 EST [45039] WARNING:  there is already a transaction in progress
+2020-01-14 08:53:44.007 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 08:53:44.007 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:53:51.588 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:53:51.588 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:53:59.313 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:53:59.313 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:54:27.722 EST [15795] LOG:  checkpoints are occurring too frequently (28 seconds apart)
+2020-01-14 08:54:27.722 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:54:35.038 EST [45039] WARNING:  there is no transaction in progress
+2020-01-14 08:54:42.232 EST [15795] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+2020-01-14 08:54:42.232 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:54:52.004 EST [15795] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2020-01-14 08:54:52.004 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:54:59.394 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:54:59.394 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:55:06.446 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:55:06.446 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:55:13.835 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:55:13.835 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:55:20.831 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:55:20.831 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:55:45.470 EST [15795] LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2020-01-14 08:55:45.470 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:55:47.456 EST [45039] WARNING:  there is no transaction in progress
+2020-01-14 08:56:00.259 EST [15795] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+2020-01-14 08:56:00.259 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:07.628 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:56:07.628 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:15.385 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:56:15.385 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:23.074 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:56:23.074 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:30.494 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:56:30.494 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:37.789 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:56:37.789 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:45.599 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:56:45.599 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:56:53.434 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:56:53.434 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:57:01.034 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:57:01.034 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:57:08.375 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:57:08.375 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:57:15.671 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 08:57:15.671 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:57:21.260 EST [45039] WARNING:  there is no transaction in progress
+2020-01-14 08:57:36.576 EST [15795] LOG:  checkpoints are occurring too frequently (21 seconds apart)
+2020-01-14 08:57:36.576 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:57:44.042 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:57:44.042 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:57:52.960 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 08:57:52.960 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:58:02.334 EST [15795] LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2020-01-14 08:58:02.334 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:58:04.790 EST [45039] WARNING:  there is no transaction in progress
+2020-01-14 08:58:15.528 EST [15795] LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2020-01-14 08:58:15.528 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 08:58:19.247 EST [45039] WARNING:  there is no transaction in progress
+2020-01-14 14:56:15.330 EST [15795] LOG:  checkpoints are occurring too frequently (22 seconds apart)
+2020-01-14 14:56:15.330 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:24:28.506 EST [45039] FATAL:  terminating connection due to administrator command
+2020-01-14 17:24:28.506 EST [45039] STATEMENT:  /* {"app": "dbt", "dbt_version": "0.15.0", "profile_name": "default", "target_name": "dev", "node_id": "model.kyureta_analytic.acris_master"} */
+	create  table "usa"."nyc"."acris_master__dbt_tmp"
+	  as (
+	    
+	
+	  WITH acris_master AS (SELECT CONCAT(apl.borough, LPAD(apl.block, 5, '0'), LPAD(apl.lot, 4, '0')) AS bbl,
+	                                apl.document_id,
+	                                apl.record_type,
+	                                app.party_type,
+	                                app.name,
+	                                apl.borough::INT,
+	                                apl.block::INT,
+	                                apl.lot::INT,
+	                                apl.easement,
+	                                apl.partial_lot,
+	                                apl.air_rights,
+	                                apl.subterranean_rights,
+	                                apl.property_type,
+	                                apl.street_number,
+	                                apl.street_name,
+	                                apl.addr_unit,
+	                                app.city,
+	                                app.state,
+	                                app.zip,
+	                                app.country,
+	                                apm.recorded_datetime::TIMESTAMP WITH TIME ZONE,
+	                                apl.good_through_date::TIMESTAMP WITH TIME ZONE,
+	                                apm.crfn,
+	                                apm.document_amt::NUMERIC,
+	                                apm.percent_trans::NUMERIC,
+	                                apk.sequence_number::INT,
+	                                apk.remark_text
+	                          FROM "usa"."nyc"."acris_base_parties" AS app
+	                                   LEFT JOIN "usa"."nyc"."acris_base_legals" AS apl
+	                                   ON apl.document_id = app.document_id
+	                                   LEFT JOIN "usa"."nyc"."acris_base_master" AS apm
+	                                   ON apm.document_id = app.document_id
+	                                   LEFT JOIN "usa"."nyc"."acris_base_references" AS apr
+	                                   ON apr.document_id = app.document_id
+	                                   LEFT JOIN "usa"."nyc"."acris_base_remarks" AS apk
+	                                   ON apk.document_id = app.document_id)
+	 SELECT DISTINCT ON (bbl, document_id, record_type, party_type) *
+	  FROM acris_master
+	 WHERE bbl IS NOT NULL
+	   AND document_id IS NOT NULL
+	   AND record_type IS NOT NULL
+	   AND party_type IS NOT NULL
+	
+	
+	
+	  );
+2020-01-14 17:25:24.629 EST [46295] WARNING:  there is already a transaction in progress
+2020-01-14 17:25:24.884 EST [46295] WARNING:  there is already a transaction in progress
+2020-01-14 17:25:24.985 EST [46297] WARNING:  there is already a transaction in progress
+2020-01-14 17:25:34.311 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 17:25:34.311 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:25:41.814 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:25:41.814 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:25:49.008 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:25:49.008 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:25:56.319 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:25:56.319 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:01.330 EST [46297] WARNING:  there is no transaction in progress
+2020-01-14 17:26:10.034 EST [15795] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2020-01-14 17:26:10.034 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:18.754 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:26:18.754 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:25.813 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:26:25.813 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:32.818 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:26:32.818 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:39.889 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:26:39.889 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:47.067 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:26:47.067 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:26:47.175 EST [46297] WARNING:  there is no transaction in progress
+2020-01-14 17:27:02.037 EST [15795] LOG:  checkpoints are occurring too frequently (15 seconds apart)
+2020-01-14 17:27:02.037 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:09.359 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:27:09.359 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:16.676 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:27:16.676 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:24.325 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:27:24.325 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:31.708 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:27:31.708 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:39.016 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:27:39.016 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:46.148 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:27:46.148 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:27:53.524 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:27:53.524 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:28:00.672 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:28:00.672 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:28:07.921 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 17:28:07.921 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:28:15.421 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:28:15.421 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:29:21.447 EST [15795] LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2020-01-14 17:29:21.447 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:29:35.630 EST [15795] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2020-01-14 17:29:35.630 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:29:39.213 EST [46297] WARNING:  there is no transaction in progress
+2020-01-14 17:29:59.436 EST [15795] LOG:  checkpoints are occurring too frequently (24 seconds apart)
+2020-01-14 17:29:59.436 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:30:08.114 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 17:30:08.114 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:30:17.323 EST [15795] LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2020-01-14 17:30:17.323 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:30:41.250 EST [15795] LOG:  checkpoints are occurring too frequently (24 seconds apart)
+2020-01-14 17:30:41.250 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:30:48.580 EST [46297] WARNING:  there is no transaction in progress
+2020-01-14 17:30:55.818 EST [15795] LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2020-01-14 17:30:55.818 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:31:03.404 EST [15795] LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2020-01-14 17:31:03.404 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 17:31:10.796 EST [46297] WARNING:  there is no transaction in progress
+2020-01-14 21:54:35.138 EST [15795] LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2020-01-14 21:54:35.138 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 21:58:10.179 EST [15795] LOG:  checkpoints are occurring too frequently (26 seconds apart)
+2020-01-14 21:58:10.179 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 21:58:35.753 EST [15795] LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2020-01-14 21:58:35.753 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 21:59:01.321 EST [15795] LOG:  checkpoints are occurring too frequently (26 seconds apart)
+2020-01-14 21:59:01.321 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 22:00:23.528 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 22:00:23.528 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 22:00:30.625 EST [15795] LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2020-01-14 22:00:30.625 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
+2020-01-14 22:00:33.121 EST [46297] WARNING:  there is no transaction in progress
+2020-01-15 04:38:35.959 EST [49560] FATAL:  role "kennylim" does not exist

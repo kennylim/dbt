@@ -6,7 +6,9 @@
 
   WITH acris_master AS (SELECT CONCAT(apl.borough, LPAD(apl.block, 5, '0'), LPAD(apl.lot, 4, '0')) AS bbl,
                                 apl.document_id,
-                                apl.record_type, app.party_type,
+                                apl.record_type,
+                                app.party_type,
+                                app.name,
                                 apl.borough::INT,
                                 apl.block::INT,
                                 apl.lot::INT,
@@ -45,6 +47,7 @@
 {{
   config({
     "post-hook" : [
+        'create index if not exists {{ this.name }}__index_on_bbl on {{ this }} ("bbl")',
         'create index if not exists {{ this.name }}__index_on_document_id on {{ this }} ("document_id")',
         {"sql": "vacuum {{this.schema}}.{{this.name}}", "transaction": False},
       "grant select on {{ this }} to db_reader"
