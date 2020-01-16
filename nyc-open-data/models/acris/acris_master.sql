@@ -43,7 +43,6 @@ WITH acris_master AS (SELECT CONCAT(apl.borough, LPAD(apl.block, 5, '0'), LPAD(a
    AND record_type IS NOT NULL
    AND party_type IS NOT NULL
 
-
 {{
   config({
     "post-hook" : [
