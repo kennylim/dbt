@@ -3030,3 +3030,7 @@
 2020-01-14 22:00:30.625 EST [15795] HINT:  Consider increasing the configuration parameter "max_wal_size".
 2020-01-14 22:00:33.121 EST [46297] WARNING:  there is no transaction in progress
 2020-01-15 04:38:35.959 EST [49560] FATAL:  role "kennylim" does not exist
+2020-01-18 01:14:55.270 EST [15793] LOG:  received smart shutdown request
+2020-01-18 01:14:55.277 EST [15793] LOG:  background worker "logical replication launcher" (PID 15800) exited with exit code 1
+2020-01-18 01:14:55.278 EST [15795] LOG:  shutting down
+2020-01-18 01:14:55.299 EST [15793] LOG:  database system is shut down
